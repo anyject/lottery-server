@@ -2,7 +2,7 @@ package com.anyject.lottery.lotteryserver.domain
 
 import com.anyject.lottery.lotteryserver.api.domain.lotto.Lottery
 import com.anyject.lottery.lotteryserver.api.domain.lotto.LotteryRepository
-import org.assertj.core.api.Assertions
+
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestInstance
