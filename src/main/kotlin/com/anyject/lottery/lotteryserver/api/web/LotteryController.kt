@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/lotto")
-class LottoController{
+class LotteryController{
     @GetMapping("")
     fun lotto(): String {
 
