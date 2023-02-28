@@ -1,7 +1,7 @@
 package com.anyject.lottery.lotteryserver.domain
 
-import com.anyject.lottery.lotteryserver.api.domain.lotto.Lottery
-import com.anyject.lottery.lotteryserver.api.domain.lotto.LotteryRepository
+import com.anyject.lottery.lotteryserver.api.domain.lottery.Lottery
+import com.anyject.lottery.lotteryserver.api.domain.lottery.LotteryRepository
 
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.Test

@@ -1,4 +1,4 @@
-package com.anyject.lottery.lotteryserver.api.domain.lotto
+package com.anyject.lottery.lotteryserver.api.domain.lottery
 
 import com.anyject.lottery.lotteryserver.api.domain.BaseTimeEntity
 import javax.persistence.*

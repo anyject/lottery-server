@@ -1,4 +1,4 @@
-package com.anyject.lottery.lotteryserver.api.domain.lotto
+package com.anyject.lottery.lotteryserver.api.domain.lottery
 
 import org.springframework.data.jpa.repository.JpaRepository
 
