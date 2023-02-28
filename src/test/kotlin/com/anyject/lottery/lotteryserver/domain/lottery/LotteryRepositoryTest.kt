@@ -13,29 +13,29 @@ import java.time.LocalDateTime
 
 @SpringBootTest
 @TestInstance(Lifecycle.PER_CLASS)
-class LotteryRepositoryTest (@Autowired val lottoRepository: LotteryRepository) {
+class LotteryRepositoryTest (@Autowired val lotteryRepository: LotteryRepository) {
 
     @AfterAll
     fun cleanUp() {
-        lottoRepository.deleteAll()
+        lotteryRepository.deleteAll()
     }
 
     @Test
     fun `create lotto`() {
         // given
         val now = LocalDateTime.now()
-        lottoRepository.save(
+        lotteryRepository.save(
             Lottery(
                 number = 1
             )
         )
-        lottoRepository.save(
+        lotteryRepository.save(
             Lottery(
                 number = 2
             )
         )
         // when
-        val lottoList = lottoRepository.findAll()
+        val lottoList = lotteryRepository.findAll()
 
         // then
         val lotto0 = lottoList[0]
