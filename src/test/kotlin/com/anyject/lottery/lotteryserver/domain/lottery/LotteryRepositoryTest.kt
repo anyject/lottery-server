@@ -1,4 +1,4 @@
-package com.anyject.lottery.lotteryserver.domain
+package com.anyject.lottery.lotteryserver.domain.lottery
 
 import com.anyject.lottery.lotteryserver.api.domain.lottery.Lottery
 import com.anyject.lottery.lotteryserver.api.domain.lottery.LotteryRepository
